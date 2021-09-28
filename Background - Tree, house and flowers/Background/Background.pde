@@ -69,16 +69,4 @@ circle(100,575,15);
 circle(225,580,20);
 circle(375,590,10);
 circle(300,570,15);
-
-/*
-//Mouth creation, line placed over arc, can probably outline arc
-arc(200, 280, 50,50, 0, PI);
-line(175,280,225,280);
-
-//hat creating, placed above other objects placed so far
-strokeWeight(8);
-line(140,185,260,185);
-fill(0);
-rect(165,110,70,75);
-*/
 }
