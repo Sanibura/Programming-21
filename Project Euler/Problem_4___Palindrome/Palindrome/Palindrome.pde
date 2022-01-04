@@ -68,23 +68,29 @@ for (int i = 0; i <900; i++)
   {
     c=a*b;
     check =str(c);
-    
+    //does run into issues with smaller numbers
     for (int j= 0; j<3; j++)
-    {char x = check.charAt(j);
-      p1 += x;}
-      
+    {
+      char x = check.charAt(j);
+      p1 += x;
+    }
+
     for (int k =1; k<check.length()-2; k++)
-    {char y = check.charAt(check.length()-k);
-      p2 += y;}
-      
+    {
+      char y = check.charAt(check.length()-k);
+      p2 += y;
+    }
+
     if (p1.equals(p2)==true)
-    {println(c, " is the palindrome of", a, "*", b);}
-    
+    {
+      println(c, " is the palindrome of", a, "*", b);
+    }
+
     b++;
     p1 = "";
     p2 = "";
   }
-  
+
   a++;
   b=100;
 }
