@@ -6,7 +6,6 @@
 //number_2 to the 2nd desired value
 //target_1 to the desired target number of number_1
 //target_2 to the desired target number of number_2
-//the number in the first and 2nd for loop to set maximum parameters to which the number increase by
 
 PrintWriter palindromeList;
 
