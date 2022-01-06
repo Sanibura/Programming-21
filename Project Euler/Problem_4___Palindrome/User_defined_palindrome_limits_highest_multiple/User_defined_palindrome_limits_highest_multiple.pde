@@ -9,14 +9,14 @@
 
 PrintWriter palindromeList;
 
-int definedInput = 0;
+
 
 int number_1 =100;
 int number_2 = 100;
 
-int target_1 = 999;
-int target_2 = 999;
-
+int target_1 = 1000;
+int target_2 = 1000;
+int definedInput = number_2;
 int increase_1 = target_1-number_1;
 int increase_2 = target_2-number_2;
 int temp = number_1;
@@ -57,7 +57,7 @@ for (int i = 0; i <increase_1+1; i++)
     }
     
     number_2++;
-    p1 = "";
+      p1 = "";
     p2 = "";
   }
 
@@ -69,6 +69,7 @@ palindromeList.println(d+" is the largest palindrome for the number set "+ temp 
 
 
 println(d+" is the largest palindrome for the number set "+ temp +" to " + target_1 + " and " +  number_2 + " to " +target_2);
+println(millis()+"ms");
 palindromeList.flush();
 palindromeList.close();
 exit();
