@@ -11,11 +11,11 @@ PrintWriter palindromeList;
 
 int definedInput = 0;
 
-  int number_1 =100;
-  int number_2 = 100;
+int number_1 =100;
+int number_2 = 100;
 
-  int target_1 = 999;
-  int target_2 = 999;
+int target_1 = 999;
+int target_2 = 999;
 
 int increase_1 = target_1-number_1;
 int increase_2 = target_2-number_2;
@@ -48,15 +48,14 @@ for (int i = 0; i <increase_1+1; i++)
     }
 
     if (p1.equals(p2)==true)
-    {//println(c, " is the palindrome of ", number_1, "*", number_2);
+    {
       palindromeList.println(c+ " is the palindrome of "+ number_1+ "*"+number_2);
       if (c>d)
       {
         d=c;
       }
-      
     }
-    //   println("Alive and working", i);
+    
     number_2++;
     p1 = "";
     p2 = "";
@@ -66,7 +65,7 @@ for (int i = 0; i <increase_1+1; i++)
   number_2=definedInput;
 }
 
-      palindromeList.println(d+" is the largest palindrome for the number set "+ temp +" to " + target_1 + " and " +  number_2 + " to " +target_2);
+palindromeList.println(d+" is the largest palindrome for the number set "+ temp +" to " + target_1 + " and " +  number_2 + " to " +target_2);
 
 
 println(d+" is the largest palindrome for the number set "+ temp +" to " + target_1 + " and " +  number_2 + " to " +target_2);
